@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Alunos</title>
+</head>
+<body>
+
+    <table border="2" cellpadding="20" align="center">
+        <caption><b>Lista de Alunos da Turma</b><br><br/></caption>
+        <thead>
+            <tr>
+                <th scope="col" colspan="2">Nome</th>
+                <th scope="col">Nota</th>
+                <th scope="col">Média Final</th>
+                <th scope="col">Classificação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td headers="Nome" rowspan="2">João Silva</td>
+                <td>Primeira Nota</td>
+                <td headers="Nota">8.5</td>
+                <td headers="Média" rowspan="2">7.75</td>
+                <td headers="Classificação" rowspan="2">Primeiro Lugar</td>
+                <tr>
+                <td>Segunda Nota</td>
+                <td headers="Nota">7.0</td>
+                </tr>
+                
+            </tr>
+            <tr>
+                <td headers="Nome" rowspan="2">Maria Oliveira</td>
+                <td>Primeira Nota</td>
+                <td headers="Nota">9.0</td>
+                <td headers="Média" rowspan="2">7.0</td>
+                <td headers="Classificação" rowspan="2">Segundo Lugar</td>
+                <tr>
+                <td>Segunda Nota</td>
+                <td headers="Nota">5.0</td>
+                </tr>
+            </tr>
+            <tr>
+                <td headers="Nome" colspan="2">Pedro Souza</td>
+                <td headers="Nota">6.0</td>
+                <td headers="Média">3.0</td>
+                <td headers="Classificação">Terceiro Lugar</td>
+            </tr>
+            <tr>
+                <td headers="Nome" rowspan="2">Ana Costa</td>
+                <td>Primeira Nota</td>
+                <td headers="Nota">3.0</td>
+                <td headers="Média"rowspan="2">2.0</td>
+                <td headers="Classificação" rowspan="2">Quarto Lugar</td>
+                <tr>
+                <td>Segunda Nota</td>
+                <td headers="Nota">1.0</td>
+                </tr>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

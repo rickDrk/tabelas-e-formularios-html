@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<meta charset="UTF-8">
+ 
+    <form action="/formulario_cadastro.html" method="post">
+        
+    
+        <label for="Nome">Nome Completo:</label>
+        <input type="text" name="Nome" placeholder="Digite seu nome" required>
+        <br>
+        <br>
+        <label for="Senha">Digite sua senha:</label>
+        <input type="password" name="Senha" placeholder="mínimo 8 dígitos" minlength="8">
+        <br>
+        <br>
+        <label for="Email"> Email para contato:</label>
+        <input type="email" name="Email" placeholder="Digite seu email" required>
+        <br>
+        <br>
+        <label for="data de nascimento"> Data de Nascimento:</label>
+        <input type="date" name="data de nascimento" required>
+        <br>
+        <br>
+        <label for="interesse"> Campos de Interesse:</label>
+        <br>
+        <br>
+        <input type="checkbox" name="interesse" value="área de T.I">Área de T.I 
+        <br>
+        <input type="checkbox" name="interesse" value="área de marketing">Área de marketing
+        <br>
+        <input type="checkbox" name="interesse" value="área do financeiro">Área do financeiro
+        <br>
+        <br>
+        <input type="radio" name="gênero" value="Masculino"> Masculino
+        <input type="radio" name="gênero" value="Feminino"> Feminino
+        <input type="radio" name="gênero" value="outro"> Outro
+        <br>
+        <br>
+        <label for="Estados">Selecione seu estado</label>
+        <select name="Estados">
+            <option value="AL"> Alagoas</option>
+            <option value="AM"> Amazonas</option>
+            <option value="AC"> Acre</option>   
+            <option value="AP"> Amapá</option>
+            <option value="BA"> Bahia</option>
+            <option value="CE"> Ceará</option>   
+        </select>
+        <br>
+        <label for="quantidade de produtos">Insira a quantidade de produtos requeridos</label>
+        <input type ="number" name="quantidade de produtos" min="1" max="99" step="1">
+        <br>
+        <br>
+        <label for="Observações"> Observações adicionais:</label>
+        <br>
+        <textarea name="Observações" rows="4" cols="50" placeholder="Digite aqui..." ></textarea>
+        <br>
+        <button type="submit"> Enviar </button>
+        <button type="reset"> Apagar tudo</button>
+
+    </form>
+
+</html>
